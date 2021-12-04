@@ -1,0 +1,49 @@
+[
+  {
+    "typ": "pirateCode",
+    "title": "1. ART",
+    "subtitle": "",
+    "text": "The Pirates will be carefully crafted by a team of top artists to be collectibles in the form of characters with potential far beyond NFTs. Some pirates will grow into legends.",
+    "image":"swords",
+    "imageAlt":"",
+    "cardClass":"col-sm-6",
+    "imgClass":"imageTeam",
+    "margin-bottom":"align-self-end"
+  },
+  {
+    "typ": "pirateCode",
+    "title": "2. RARITY",
+    "subtitle": "",
+    "text": "Every Pirate shall be made by combining hundreds of different traits. Some traits are more rare than others, and some NFTs are very, very special. But without exception, they must all abide by the Code...",
+    "image":"hat",
+    "imageAlt":"",
+    "cardClass":"col-sm-6"
+  },
+  {
+    "typ": "pirateCode",
+    "title": "3. UTILITY",
+    "subtitle": "",
+    "text": "Be on the lookout for The Kraken: A Full-Utility token within Own and Play-To-Earn platforms.",
+    "image":"chest",
+    "imageAlt":"",
+    "cardClass":"col-sm-6"
+  },
+  {
+    "typ": "pirateCode",
+    "title": "4.COMMUNITY",
+    "subtitle": "",
+    "text": "Pirates will collaborate on Scavenger hunts, and other game mechanics that will push the boundaries of cross-chain interactions, leading the Pirate crew to greater treasures across multiple dimensions.",
+    "image":"flag",
+    "imageAlt":"",
+    "cardClass":"col-sm-6"
+  },
+  {
+    "typ": "pirateCode",
+    "title": "4.COMMUNITY",
+    "subtitle": "",
+    "text": "Pirates will collaborate on Scavenger hunts, and other game mechanics that will push the boundaries of cross-chain interactions, leading the Pirate crew to greater treasures across multiple dimensions.",
+    "image":"flag",
+    "imageAlt":"",
+    "cardClass":"col-sm-6"
+  }
+]

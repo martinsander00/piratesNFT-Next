@@ -1,0 +1,138 @@
+[
+  {
+    "typ": "team",
+    "title": "@CryptoPapi",
+    "subtitle": "PRODUCER",
+    "text": "",
+    "image":"/team/img/cryptopapi.png",
+    "imageAlt":"",
+    "link":"https://twitter.com/CryptoPapi10",
+    "cardClass":"col-sm-2",
+    "titleClass":"twitter margintop_10",
+    "subtitleClass":"position"
+  },
+  {
+    "typ": "team",
+    "title": "@NFLuis",
+    "subtitle": "PROJECT DIRECTOR",
+    "text": "",
+    "image":"/team/img/nfluis.png",
+    "imageAlt":"",
+    "link":"",
+    "cardClass":"col-sm-2",
+    "titleClass":"twitter margintop_10",
+    "subtitleClass":"position"
+  },
+  {
+    "typ": "team",
+    "title": "@ThomPorras",
+    "subtitle": "CREATIVE DIRECTOS",
+    "text": "",
+    "image":"/team/img/thom.png",
+    "imageAlt":"",
+    "cardClass":"col-sm-2 me-sm-5",
+    "titleClass":"twitter margintop_10",
+    "subtitleClass":"position"
+  },
+  {
+    "typ": "team",
+    "title": "@chrishol",
+    "subtitle": "SENIOR DEVELOPER",
+    "text": "",
+    "image":"/team/img/chris.png",
+    "imageAlt":"",
+    "cardClass":"col-sm-2",
+    "titleClass":"twitter margintop_10",
+    "subtitleClass":"position"
+  },
+  {
+    "typ": "team",
+    "title": "@freddy_a",
+    "subtitle": "BACK-END DEVELOPER",
+    "text": "",
+    "image":"/team/img/freddy.png",
+    "imageAlt":"",
+    "cardClass":"col-sm-2",
+    "titleClass":"twitter margintop_10",
+    "subtitleClass":"position"
+  },
+  {
+    "typ": "team",
+    "title": "@CaduLorenzo",
+    "subtitle": "FRONT-END DEVELOPER",
+    "text": "",
+    "image":"/team/img/cadu.png",
+    "imageAlt":"",
+    "cardClass":"col-sm-2",
+    "titleClass":"twitter margintop_10",
+    "subtitleClass":"position"
+  },
+  {
+    "typ": "team",
+    "title": "@fercreative",
+    "subtitle": "2D ARTIST / MARKETING",
+    "text": "",
+    "image":"/team/img/fer.png",
+    "imageAlt":"",
+    "cardClass":"col-sm-2",
+    "titleClass":"twitter margintop_10",
+    "subtitleClass":"position"
+  },
+  {
+    "typ": "team",
+    "title": "@_Martoons",
+    "subtitle": "3D ARTIST",
+    "text": "",
+    "image":"/team/img/mario.png",
+    "imageAlt":"",
+    "cardClass":"col-sm-2",
+    "titleClass":"twitter margintop_10",
+    "subtitleClass":"position"
+  },
+  {
+    "typ": "team",
+    "title": "@G_Motion",
+    "subtitle": "3D ARTIST",
+    "text": "",
+    "image":"/team/img/gmotion.png",
+    "imageAlt":"",
+    "cardClass":"col-sm-2",
+    "titleClass":"twitter margintop_10",
+    "subtitleClass":"position"
+  },
+  {
+    "typ": "team",
+    "title": "@Morton_BS",
+    "subtitle": "COMMUNITY MNGR / WEB",
+    "text": "",
+    "image":"/team/img/martin.png",
+    "imageAlt":"",
+    "cardClass":"col-sm-2",
+    "titleClass":"twitter margintop_10",
+    "subtitleClass":"position"
+  },
+  {
+    "typ": "team",
+    "title": "@IdMintThat",
+    "subtitle": "STORYTELLER",
+    "text": "",
+    "image":"/team/img/mickele.png",
+    "imageAlt":"",
+    "cardClass":"col-sm-2",
+    "titleClass":"twitter margintop_10",
+    "subtitleClass":"position"
+  },
+  {
+    "typ": "team",
+    "title": "@TRoffi1",
+    "subtitle": "CREATIVE WIZARD",
+    "text": "",
+    "image":"/team/img/thano.png",
+    "imageAlt":"",
+    "cardClass":"col-sm-2",
+    "titleClass":"twitter margintop_10",
+    "subtitleClass":"position"
+  }
+]
+
+
