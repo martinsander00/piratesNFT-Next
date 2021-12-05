@@ -1,0 +1,52 @@
+
+.lb{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: auto auto 10em auto;
+    justify-content: center;
+    z-index: 1;
+    overflow: hidden;
+    
+    Image{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    &__bgBanner{
+        position: relative;
+        width: 110%;
+        right: 5%;
+        top: 0;
+        margin: 0px;
+        padding: 0px;
+        z-index: 1;
+
+    }
+    &__logoWeb{
+        position: absolute;
+        top: 13%;
+        right: 23%;
+        width: 54%;
+        height: auto;
+        z-index: 10;
+    }
+    &__longRocks{
+        position: absolute;
+        bottom: 0;
+        left: -5%;
+        width: 110%;
+        height: auto;
+        z-index: 5;
+
+    }
+    &__redPlanet{
+        position: absolute;
+        top: 12%;
+        right: 33%;
+        width: 34%;
+        height: auto;
+        z-index: 5;
+
+    }
+}
