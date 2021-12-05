@@ -20,11 +20,23 @@
 
     &__item{
 
+
         &__title{
             font-size: 3rem;
             font-family: $Quicksand;
             font-weight: bold;
             color: $fuchsia;
+        }
+
+        &__img{
+            height:160px;
+            width: auto;
+            margin-top: 100px;
+            margin-bottom: 20px;
+        }
+
+        .hat{
+            transform: rotate(-13deg);
         }
     }
 }

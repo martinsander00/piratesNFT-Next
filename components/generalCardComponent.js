@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 
 const GeneralCard = ({
                       typ,              // Card type
@@ -13,10 +15,11 @@ const GeneralCard = ({
                       textClass,         // text Class for styling
                       }) =>{
 
+    console.log(image);
 	return(
 	<div className={cardClass}>
-		{typ == "team" &&<img src={image} className={"card-img-top " + imgClass} />}
-
+        {typ == "team" &&<img src={image} className={"card-img-top " + imgClass} />} 
+		{typ == "pirateCode" && <img src={"/pirateCode/img/" + image} className={"card-img-top " + imgClass} />}
 		<div className="card-body">
 			<h3 className={"card-title " + titleClass}>{title}</h3>
 			<h4 className={"card-subtitle " + subtitleClass}>{subtitle}</h4>

@@ -17,9 +17,9 @@ const PirateCode = () =>  {
           <h4 className={styles.pirateCode__subtitle}>{stitle}</h4>
         </div>
       </div>
-      <div className="row d-flex justify-content-center">
+      <div className="row d-flex justify-content-center " >
         {data?.map((pcIt)=>(
-          <GeneralCard key={pcIt[1]} {...pcIt} titleClass={styles.pirateCode__item__title} textClass="description"  />
+          <GeneralCard key={pcIt[1]} {...pcIt} cardClass={"col-sm-6 " + styles.pirateCode__item} titleClass={styles.pirateCode__item__title} imgClass={styles.pirateCode__item__img} textClass="description"  />
         ))}
       </div>
     </div>
