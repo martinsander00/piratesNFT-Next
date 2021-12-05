@@ -1,0 +1,17 @@
+@import '_variables';
+
+.roadmap{
+    
+    &__title{
+        font-size: 3rem;
+        font-family: $Quicksand;
+        font-weight: bold;
+        color: $pink;
+    }
+
+    &__subtitle{
+        font-size: 1.8rem;
+        font-family: $Quicksand;
+        color: $pink;
+    }
+}

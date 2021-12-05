@@ -1,0 +1,18 @@
+@import '_variables';
+
+
+//globales
+
+:root{
+  font-size: 62.5%;
+}
+
+main{
+  background: $dark-blue;
+	color: $pink;
+  width: 100%;
+  font-family: $Quicksand;
+	margin: 0;
+  font-size: 1.6rem;
+  justify-content: center;
+}

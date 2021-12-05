@@ -1,0 +1,30 @@
+@import '_variables';
+
+
+.pirateCode{
+    
+    &__title{
+        font-size: 4.5rem;
+        font-family: $RussoOne;
+        color: $fuchsia;
+        
+        
+    }
+    &__subtitle{
+        font-size: 3rem;
+        font-family: $Quicksand;
+        font-weight: bold;
+        color: $pink;
+        
+    }
+
+    &__item{
+
+        &__title{
+            font-size: 3rem;
+            font-family: $Quicksand;
+            font-weight: bold;
+            color: $fuchsia;
+        }
+    }
+}

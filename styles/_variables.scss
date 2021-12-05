@@ -1,0 +1,39 @@
+//Fonts
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&family=Russo+One&display=swap');
+
+$Quicksand: 'Quicksand', sans-serif;
+$RussoOne: 'Russo One', sans-serif;
+
+// Colors
+$pink:rgb(255, 206, 225);
+$dark-pink:rgb(205, 156, 175);
+$fuchsia:rgb(240, 17, 102);
+$dark-blue:rgb(0, 9, 20);
+
+
+
+
+
+
+// Spacing
+$spacing-md: 16px;
+$spacing-lg: 32px;
+
+// Border radius
+$borderRadius: 15px;
+
+// header height
+$headerHeight: 100px;
+
+
+@mixin breakpoint($points){
+    @if $points == md {
+        @media (min-width: 48em){
+            @content;
+        }
+    }
+}
+
+
+

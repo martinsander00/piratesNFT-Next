@@ -1,0 +1,47 @@
+@import '_variables';
+
+.team{
+
+	text-align: center;
+	justify-content: center;
+
+	margin-top: 100px;
+	margin-bottom: 100px;
+
+	&__title{
+		font-family: $Quicksand;
+		font-size: 4.5rem;
+		font-weight: bold;
+		color: $pink;
+		margin-bottom: 0.5em;
+	}
+
+	&__subtitle{
+		font-family: $Quicksand;
+		font-size: 2rem;
+		color: $pink;
+		margin-bottom: 3em;
+	}
+
+
+	&__image{
+		width: 133px;
+		height: auto;
+		border-radius: 50%;
+	}
+	
+
+	&__twitter{
+		font-size: 1.8rem;
+		font-family: $RussoOne;
+		color: $fuchsia;
+	}
+	
+	&__position{
+		font-size: 1.3rem;
+		font-family: $Quicksand;
+		font-weight: bold;
+		color: $pink;
+	
+	}
+}

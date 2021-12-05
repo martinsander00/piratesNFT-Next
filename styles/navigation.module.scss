@@ -1,0 +1,129 @@
+@import '_variables';
+
+.header {
+	width: 100%;
+	padding: 1rem 1.5rem;
+	height: auto;
+	@include breakpoint(md){
+		padding: 1rem 3rem;
+	}
+	transition: all 0.5s ease-in-out;
+
+	&__content{
+		overflow: hidden;
+		color: $pink;
+		margin: 0 auto;
+		max-width: 1920px;
+		height: auto;
+		align-items: center;
+		justify-content: space-between;
+		display: flex;
+	}
+
+	&__brand{
+		margin-top: 10px;
+	}
+
+	&__nav{
+		top: 0;
+		right: 100%;
+		bottom: 0;
+		width: 100%;
+		height: 100vh;
+		position: fixed;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background: rgba($dark-blue, 0.8);
+		backdrop-filter: blur(2px);
+		transform: tarnslate(0);
+		transition: transform 0.5s ease-in-out;
+
+		@include breakpoint(md){
+			transform: none;
+			flex-direction: row;
+			background: transparent;
+			width: auto;
+			height: 100%;
+			position: static;
+		}
+
+		ul{
+			list-style: none;
+			display: flex;
+			flex-direction: column;
+			margin-bottom: $spacing-lg;
+
+			@include breakpoint(md){
+				flex-direction: row;
+				align-items: center;
+				margin-bottom: 0;
+				margin-right: calc(0.5rem + #{$spacing-md});
+			}
+			
+
+			li{
+				font-size: 2rem;
+				&:not(:last-child) {
+					margin-bottom: $spacing-lg;
+					@include breakpoint(md) {
+						margin-bottom: 0;
+						margin-right: $spacing-md;
+					}
+				}
+
+				a{
+					text-decoration: none;
+					color: inherit;
+					display: block;
+					padding: 0.75rem 1.25rem;
+					border-radius: $borderRadius;
+					border: solid 2px transparent;
+					transition: all 0.5s ease-in-out;
+	
+					&:hover{
+						border: solid 2px $pink;
+					}
+				}
+			}
+		}
+		button{
+			cursor: pointer;
+			outline: none;
+			padding: 0.75rem 1.25rem;
+			margin: 0 0.75rem;
+			border-radius: $borderRadius;
+			font-size: 2rem;
+			font-family: inherit;
+			color: $fuchsia;
+			background: transparent;
+			border: solid 2px transparent;
+			transition: all 0.5s ease-in-out;
+
+			&:hover{
+				border: solid 2px $fuchsia;
+			}
+		}
+		&.isMenu {
+			transform: translate(100%);
+		}
+	}
+
+	&__toggle {
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		font-size: 1.25rem;
+		transition: 0.3s ease all;
+		position: relative;
+
+		&:hover {
+			color: $pink;
+		}
+
+		@include breakpoint(md) {
+			display: none;
+		}
+	}
+}
