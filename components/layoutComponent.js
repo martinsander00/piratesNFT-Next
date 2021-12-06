@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Navigation from './navigationComponent';
 import Footer from './footerComponent';
+import {motion} from 'framer-motion';
 
 const Layout = ({children, title, description}) => {
 	return(

@@ -13,8 +13,8 @@ const LandingBanner = () => {
 		<>
 		<div className={styles.lb}>
 			<img src="landingBanner/LOGO_WEB.png" className={styles.lb__logoWeb} />
-			<img src="landingBanner/LONG_ROCKS.png" className={styles.lb__longRocks} />
 			<img src="landingBanner/RedPlanet.png" className={styles.lb__redPlanet} />
+			<img src="landingBanner/LONG_ROCKS.png" className={styles.lb__longRocks} />
 			{/*<img src="landingBanner/LEARN_MORE.png" className={styles.lb__learnMore} />*/}
 		</div>
 		<div className={styles.lb__space}>
@@ -27,7 +27,7 @@ const LandingBanner = () => {
 
 }
 
-export const ImageBlock = ({ children , className }) => {
+export const AShips = ({ children , className }) => {
 	return (
 		<motion.div className={className}>
 			{children}
