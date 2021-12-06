@@ -6,7 +6,7 @@ import styles from '../styles/roadmap.module.scss';
 
 const Roadmap = () => {
 	return(
-		<div className=" container movebot_roadmap_card mask">
+		<div className={"container movebot_roadmap_card mask " + styles.roadmap}>
 
       
       <div className="skull-card ">

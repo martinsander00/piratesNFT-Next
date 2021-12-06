@@ -1,6 +1,7 @@
 @import '_variables';
 
 .roadmap{
+    margin: $sectionMargin;
     
     &__title{
         font-size: 3rem;

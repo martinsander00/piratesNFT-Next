@@ -10,7 +10,7 @@ const PirateCode = () =>  {
   const stitle = 'Five Principles';
 	
 	return(
-    <div className="container movebot_code">
+    <div className={"container " + styles.pirateCode}>
       <div className="row text-center">
         <div className="col">
           <h1 className={styles.pirateCode__title}>{title}</h1>

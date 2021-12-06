@@ -7,10 +7,10 @@ import styles from '../styles/description.module.scss';
 const Description = () => {
 	const desc = description[0];
 	return(
-		<div className="container">
+		<div className={"container " + styles.description}>
 			<div className="row">
 			<GeneralCard {...desc} 
-				cardClass="col-sm-6"
+				cardClass={"col-sm-6 " + styles.description__card}
 				titleClass={styles.description__title} subtitleClass={styles.description__subtitle} />
 			</div>
 		</div >

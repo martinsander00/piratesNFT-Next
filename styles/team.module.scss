@@ -5,8 +5,7 @@
 	text-align: center;
 	justify-content: center;
 
-	margin-top: 100px;
-	margin-bottom: 100px;
+    margin: $sectionMargin;
 
 	&__title{
 		font-family: $Quicksand;

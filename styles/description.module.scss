@@ -2,15 +2,38 @@
 
 .description{
     
+    margin: $sectionMargin;
+
+
     &__title{
-        font-size: 12.5rem;
+        text-align: center;
+        font-size: min(12.5rem, 25vw);
         font-family: $RussoOne;
+        margin: 0;
         color: $fuchsia;
+        height: auto;
+
+		@include md{
+            text-align: start;
+			font-size: 12.5rem;
+
+		}
     }
 
     &__subtitle{
-        font-size: 4.5rem;
+        text-align: center;
+        font-size: min(4.5rem, 9vw);
         font-family: $RussoOne;
+        margin-bottom: 01em;
         color: $fuchsia;
+		@include md{
+            text-align: start;
+			font-size: 4.5rem;
+            margin-bottom: 0.75em;
+
+		}
+    }
+
+    &__card{
     }
 }
