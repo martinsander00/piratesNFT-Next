@@ -23,16 +23,16 @@ const Navigation = () => {
 			<div className="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo01">
 
 				<ul className=" navbar-nav  mt-2 mt-lg-0">
-							<li clasName="nav-item">
+							<li className="nav-item">
 								<Link href="/"><a className={styles.header__link}>MINT</a></Link>
 							</li>
-							<li clasName="nav-item">
+							<li className="nav-item">
 								<Link href="/"><a className={styles.header__link}>ROADMAP</a></Link>
 							</li>
-							<li clasName="nav-item">
+							<li className="nav-item">
 								<Link href="/"><a className={styles.header__link}>CREW</a></Link>
 							</li>
-							<li clasName="nav-item">
+							<li className="nav-item">
 								<Link href="/"><a className={styles.header__link}>JOIN US</a></Link>
 							</li>
 						</ul>
