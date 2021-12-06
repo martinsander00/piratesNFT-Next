@@ -10,12 +10,19 @@ import styles from '../styles/landingBanner.module.scss';
 const LandingBanner = () => {
 	const path = '/home/'
 	return(
+		<>
 		<div className={styles.lb}>
-			<img src="landingBanner/BG_BANNER.jpg" className={styles.lb__bgBanner} />
 			<img src="landingBanner/LOGO_WEB.png" className={styles.lb__logoWeb} />
 			<img src="landingBanner/LONG_ROCKS.png" className={styles.lb__longRocks} />
 			<img src="landingBanner/RedPlanet.png" className={styles.lb__redPlanet} />
+			{/*<img src="landingBanner/LEARN_MORE.png" className={styles.lb__learnMore} />*/}
 		</div>
+		<div className={styles.lb__space}>
+			<p className={styles.lb__learnMore}>Learn More</p>
+			<img src="landingBanner/SPACESHIPSL.svg" className={styles.lb__spaceShipL} />
+			<img src="landingBanner/SPACESHIPSR.svg" className={styles.lb__spaceShipR} />
+		</div>
+		</>
 	);
 
 }

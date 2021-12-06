@@ -1,52 +1,156 @@
-
+@import '_variables';
 .lb{
     position: relative;
     width: 100%;
-    height: auto;
+    height: 75vh;
     margin: auto auto 10em auto;
-    justify-content: center;
     z-index: 1;
     overflow: hidden;
-    
-    Image{
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
-    &__bgBanner{
-        position: relative;
-        width: 110%;
-        right: 5%;
-        top: 0;
-        margin: 0px;
-        padding: 0px;
-        z-index: 1;
+    background-image: url('../public/landingBanner/BG_BANNER.jpg');
+    background-size: auto 65vh;
+    background-repeat: no-repeat;
+    background-position: top -5% center;
 
+    @include md {
+        height: 125vh;
+        background-size: cover;
     }
+    @include xl {
+        height: 135vh;
+    }
+
+
+
     &__logoWeb{
         position: absolute;
-        top: 13%;
-        right: 23%;
-        width: 54%;
+        top: 10%;
+        width: 100%;
         height: auto;
         z-index: 10;
-    }
-    &__longRocks{
-        position: absolute;
-        bottom: 0;
-        left: -5%;
-        width: 110%;
-        height: auto;
-        z-index: 5;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
 
+        @include lg{
+            height: 34%;
+            width: auto;
+            top: 10%;
+        }
     }
+
     &__redPlanet{
         position: absolute;
-        top: 12%;
-        right: 33%;
-        width: 34%;
+        top: 10%;
+        width: 60%;
         height: auto;
         z-index: 5;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
 
+        @include lg{
+            height: 35%;
+            width: auto;
+            top: 10%;
+        }
+    }
+
+    &__longRocks{
+        position: absolute;
+        bottom: -10vh;
+        left: -250%;
+        width: 600%;
+        height: auto;
+        z-index: 10;
+        //border-bottom: solid 50vh $dark-blue;
+
+        @include md{
+            bottom: -40vh;
+            left: -5%;
+            width: 110%;
+            height: auto;
+            z-index: 5;
+            border-bottom: solid 50vh $dark-blue;
+
+        }
+
+    }
+
+    &__learnMore{
+        position: absolute;
+        top: 95%;
+        width: 10em;
+        height: auto;
+        z-index: 500;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        font-family: $Quicksand;
+        font-weight: 600;
+        font-size: 1.6rem;
+        letter-spacing: 0.3em;
+        color: $pink;
+        border: 0.1em solid $pink;
+        border-radius: 6px;
+        padding: 0.1em 0.3em;
+        //display: none;
+
+        @include lg{
+            top: 90%;
+            font-size: 3rem;
+        }
+    }
+
+    &__spaceShipL{
+        width: 35%;
+        top: 60%;
+        left: 10%;
+        
+        @include lg{
+            left: 20%;
+            width: max(200px,12%);
+        }
+    }
+
+    &__spaceShipR{
+        width: 25%;
+        top: 75%;
+        right: 10%;
+
+        @include lg{
+            right: 20%;
+            width: max(200px,12%);
+        }
+    }
+
+
+    &__spaceShipL, &__spaceShipR{
+        position: absolute;
+        height: auto;
+        z-index: 20;
+
+        @include md{
+            
+        }
+
+        @include lg{
+            top: 70%;
+            width: max(200px,12%);
+        }
+
+    }
+
+    &__space{
+        height: 40vh;
+
+        @include lg{
+            height: 10vh;
+        }
     }
 }

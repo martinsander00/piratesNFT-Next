@@ -7,12 +7,17 @@
   font-size: 62.5%;
 }
 
+html{
+  margin: 0;
+  padding: 0;
+}
 main{
   background: $dark-blue;
 	color: $pink;
   width: 100%;
   font-family: $Quicksand;
 	margin: 0;
+  padding: 0;
   font-size: 1.6rem;
   justify-content: center;
 }
